@@ -316,7 +316,7 @@ export default function Footer() {
                       Understanding Health Insurance Benefits Now
                     </p>
                   </div>
-                  <div classNane="hidden sm:block">
+                  <div className="hidden sm:block">
                     <p className="mb-2">
                       How to Choose the Right Car Insurance in 2025
                     </p>
