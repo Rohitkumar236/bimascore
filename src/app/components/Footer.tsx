@@ -368,10 +368,10 @@ export default function Footer() {
                   <p className="text-left text-sm md:text-lg">
                     Critical Illness Insurance
                   </p>
-                  <p className="text-left text-sm md:text-lg">
+                  <p className="text-left hidden sm:block text-sm md:text-lg">
                     Cyber Insurance
                   </p>
-                  <p className="text-left text-sm md:text-lg">Pet Insurance</p>
+                  <p className="text-left hidden sm:block text-sm md:text-lg">Pet Insurance</p>
                 </div>
                 <div className="flex justify-end mt-[-20px]">
                   {isOpenBottom ? (
@@ -448,7 +448,7 @@ export default function Footer() {
                       Why You Need Critical Illness Insurance Now
                     </p>
                   </div>
-                  <div>
+                  <div className="hidden sm:block">
                     <p className="mb-2">
                       Why Businesses Need Cyber Insurance in 2025
                     </p>
@@ -468,7 +468,7 @@ export default function Footer() {
                       Affordable Cyber Insurance Options for 2025
                     </p>
                   </div>
-                  <div>
+                  <div  className="hidden sm:block">
                     <p className="mb-2">
                       Best Pet Insurance Plans for Your Furry Friends
                     </p>
