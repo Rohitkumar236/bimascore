@@ -234,10 +234,10 @@ export default function Footer() {
                   <p className="text-left text-sm md:text-lg">
                     Health Insurance
                   </p>
-                  <p className="text-left text-sm md:text-lg">
+                  <p className="text-left text-sm md:text-lg hidden sm:block">
                     Motor Insurance
                   </p>
-                  <p className="text-left text-sm md:text-lg">Home Insurance</p>
+                  <p className="text-left text-sm md:text-lg hidden sm:block">Home Insurance</p>
                 </div>
                 <div className="flex justify-end mt-[-20px]">
                   {isOpenTop ? (
@@ -316,7 +316,7 @@ export default function Footer() {
                       Understanding Health Insurance Benefits Now
                     </p>
                   </div>
-                  <div>
+                  <div classNane="hidden sm:block">
                     <p className="mb-2">
                       How to Choose the Right Car Insurance in 2025
                     </p>
@@ -336,7 +336,7 @@ export default function Footer() {
                       Affordable Cyber Insurance Options for 2025
                     </p>
                   </div>
-                  <div>
+                  <div className="hidden sm:block">
                     <p className="mb-2">
                       Essential Tips for Home Insurance Coverage
                     </p>
